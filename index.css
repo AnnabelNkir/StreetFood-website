@@ -1,0 +1,43 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;   
+}
+nav{
+max-width: 960px; 
+margin: 0 auto;
+padding: 10px 0;
+margin-right: 0%;
+position: fixed;
+z-index: 1;
+
+}
+nav.logo{
+    font-size: 30px;
+    font-weight: bold;
+     letter-spacing: 1.5px;
+}
+nav logo p{
+    float: left;
+    color:black;
+    text-align: center;
+}
+nav ul{
+    float: right;
+    color: black;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    color: black;
+}
+nav ul li a{
+    color: rgb(26, 22, 22);
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    text-shadow: black;
+    font-weight: bold;
+}
