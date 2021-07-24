@@ -1,7 +1,7 @@
 *{
 margin: 0px;
 padding: 0px;
-font-family: 'Poppins', sans-serif;   
+font-family: 'Poppins', sans-serif;
 }
 nav{
 margin: 0 auto;
@@ -90,11 +90,15 @@ h3{
     line-height: 2px;
     margin: 2px;
 }
-div.Eattogether{
-margin-left: 2%;
-margin-right: 2%;
-padding-left: 0;
-text-align: left;
+}
+div #Eattogether{
+    margin: 0px;
+    margin-right: 2%%;
+    margin-left: 2%;
+    padding: 0;
+    
+    
+
 }
 #Streetfood{
     margin: 2%;
