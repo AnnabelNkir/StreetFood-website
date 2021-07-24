@@ -11,21 +11,18 @@ padding: 10px 0;
 margin-right: 0%;
 position: fixed;
 z-index: 1;
-
 }
-nav.logo{
-    font-size: 30px;
-    font-weight: bold;
-     letter-spacing: 1.5px;
-}
-nav logo p{
-    float: left;
+h1{
     color:black;
     text-align: center;
+    font-size: 15px;
+    fill-opacity: inherit;
 }
 nav ul{
+    width: auto;
     float: right;
     color: black;
+    margin-top: 8px;
 }
 nav ul li{
     display: inline-block;
@@ -37,7 +34,9 @@ nav ul li a{
     text-decoration: none;
     font-size: 10px;
     text-transform: uppercase;
-    padding: 0px 32px;
+    padding: 15px 30px;
     text-shadow: black;
     font-weight: bold;
+    display: inline-block;
+    text-align: right;
 }
