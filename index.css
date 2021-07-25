@@ -14,6 +14,7 @@ nav{
         font-size: 30px;
         text-shadow: 5px 5px 5px;
         box-shadow: black 15px;
+        position: relative;
     }
     .circle{
         background-color: #649549;
@@ -78,10 +79,10 @@ nav{
     margin-left: 2%;
     color: black;
     text-align: left;
-    font-weight: 10px;
+    font-weight: 20px;
     text-shadow: 2px,2px,5px;
     font-family: 'poppins';
-    font-size: 40px;
+    font-size: 30px;
     }
     .one{
         margin-top: 2%;
@@ -104,25 +105,25 @@ nav{
         text-shadow: 2px,2px,5px;
     }
     h3{
-        font-size: 12px;
+        font-size: 10px;
         line-height: 2px;
         margin: 2px;
     }
     
     #Eattogether{
-        margin: 2px;
-        margin-left: 0%;
-        padding: 0;
-        font-size: 10px;
+        margin-top: 50%;
+        margin-left:-1000%;
+        margin-right: -5000%;
+        font-size: 2px;
         font-family: 'Poppins';
         text-align: right;
         color: #EAAB1B;
     }
-    #Etparagraph {
-        margin: 2px;
-        margin-left: 0%;
-        padding: 0;
-        font-size: 10px;
+    #Etparagraph{
+    margin-top: 50%;
+    margin-left: -100%;
+    padding: 0;       
+        font-size: 2px;
         font-family: 'Poppins';
         text-align: right; 
     }
