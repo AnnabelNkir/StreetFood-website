@@ -2,6 +2,7 @@
 margin: 0px;
 padding: 0px;
 font-family: 'Poppins', sans-serif;
+position: relative;
 }
 nav{
 margin: 0 auto;
@@ -91,11 +92,23 @@ h3{
     margin: 2px;
 }
 
-div #Eattogether{
-    margin: 0px;
-    margin-right: 2%;
-    margin-left: 2%;
+#Eattogether{
+    margin: 2px;
+    margin-left: 0%;
     padding: 0;
+    font-size: 10px;
+    font-family: 'Poppins';
+    text-align: right;
+    color: #EAAB1B
+}
+#Etparagraph {
+    margin: 2px;
+    margin-left: 0%;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Poppins';
+    text-align: right;
+   
 }
 #Streetfood{
     margin: 2%;
@@ -113,4 +126,12 @@ div #Eattogether{
 .btn:hover {
     background-color:#6CB840;
 }
-
+.Explore-menu{
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    background-color: #C9ECB5;
+}
