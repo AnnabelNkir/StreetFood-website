@@ -2,16 +2,16 @@
 margin: 0px;
 padding: 0px;
 font-family: 'Poppins', sans-serif;
-position: relative;
+position:relative
 }
 nav{
 margin: 0 auto;
-padding: 10px 0;
-margin-right: 5%;
-margin-left: 5%;
+padding: 5px 20px;
+margin-right: 2%;
+margin-left: 2%;
 position: fixed;
 z-index: 10;
-line-height: 1.5px;
+line-height: 3.5px;
 }
 #star{
     margin: 0px;
@@ -217,6 +217,9 @@ font-size: 15px;
     padding: 0,0px;
     overflow: hidden;
     background-color: #FFD77C;
+    padding: 12px 50px;
+    border-radius: 20px;
+    border: 0;
 }
 .contact-form-text{
     display: block;
@@ -224,7 +227,7 @@ font-size: 15px;
     text-align: left;
     align-content: center;
     box-sizing: border-box;
-    margin: 10px 10px;
+    margin: 50px 300px;
     margin-top: 10%;
     margin-bottom: 10%;
     border: 0;
@@ -233,15 +236,19 @@ font-size: 15px;
     outline: none;
     color: black;
     padding: 12px 50px;
+    font-family: 'Poppins';
 }
 .contact-form-btn{
     float: center;
     border:0;
     background-color: #6CB840;
-    padding: 12px 50px;
-    border-radius: 20px;
+    padding: 12px 30px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
+    margin-bottom: 2%;
+    color: white;
+    text-align: center;
 }
 .contact-form-btn:hover{
     background-color: #6CB840;
