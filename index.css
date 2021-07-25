@@ -199,9 +199,27 @@ h3{
     margin-top: 2px;
     font-family: 'poppins';
 }
-#hotdeals{
-    font-size: 5px;
-
+.flexcontainer{
+    display: flexbox;
+    flex-direction: row;
+    position: relative;
+}
+.Item1{
+     display: flex;
+     flex-direction: row;     
+}
+.Item2{
+    display: flex;
+    flex-direction: row;
+    background: image(Images/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png);}
+#Juice{
+    position: absolute;
+}
+#Burger{
+    margin-bottom: 100%;
+    margin-left: 3%;
+    margin-right: 50%;
+    margin-top: 23%;
 }
 .contactparagraph{
 font-family: 'poppins';   
