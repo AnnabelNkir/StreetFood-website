@@ -145,7 +145,7 @@ h3{
 .Burger1{
     background-color: white;
     border-radius: 0px, 0px 10px;
-    text-align:left
+    text-align: right
     display: flexbox;
     float: right;
     margin-top: 2px;
@@ -169,7 +169,7 @@ h3{
     display: flexbox;
     float: right;
     margin-top: 2px;
-    font-family: 'poppins';
+    font-family: 'poppins' sans-serif;
 }
 .Burger4{
     background-color: white;
@@ -197,7 +197,7 @@ h3{
     float: right;
     padding: 10px;
     margin-top: 2px;
-    font-family: 'poppins';
+    font-family: 'poppins' sans-serif;
 }
 .flexcontainer{
     display: flexbox;
@@ -206,12 +206,39 @@ h3{
 }
 .Item1{
      display: flex;
-     flex-direction: row;     
+     flex-direction: row; 
+     text-align: center;  
+     float: center;  
+     height: 15px;
+     padding: 10px 50px;
+}
+.SC{
+    text-align: right;
+     font-size: 20px;
+     margin-top: 15%;
+     margin-right:-30%;
+     margin-left: 40%;
+     padding: 12px 30px;
+     color: #6CB840;
+     height: 50%;   
+}
+.BP{
+    text-align: right;
+    margin-top: 20%;
+    font-size: 20px;
+    margin-left: 5%;   
+}
+.FD{
+    text-align: center;
+    margin-top:25%;
+    font-size: 17px;
+    margin-left: -10%;
 }
 .Item2{
-    display: flex;
-    flex-direction: row;
-    background: image(Images/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png);}
+    display: flexbox;
+    background: image(Images/abhishek-hajare-kkrXVKK-jhg-unsplash-removebg-preview.png)
+    height: 15px;
+}
 #Juice{
     position: absolute;
 }
