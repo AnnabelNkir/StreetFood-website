@@ -135,3 +135,68 @@ h3{
     position: relative;
     background-color: #E5E5E5;
 }
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    height: 50px;
+    width: 50px;
+}
+.Burger1{
+    background-color: white;
+    border-radius: 0px, 0px 10px;
+    text-align:left
+    display: flexbox;
+    float: right;
+    margin-top: 2px;
+    font-family: 'poppins';
+    align-content: space-around;
+}
+.Burger2{
+    background-color: white;
+    border-radius: 0px, 0px 10px;
+    text-align: left;
+    display: flexbox;
+    float: right;
+    padding: 10px;
+    margin-top: 2px;
+    font-family: 'poppins';
+}
+.Burger3{
+    background-color: white;
+    border-radius: 0px, 0px 10px;
+    text-align: left;
+    display: flexbox;
+    float: right;
+    margin-top: 2px;
+    font-family: 'poppins';
+}
+.Burger4{
+    background-color: white;
+    border-radius: 0px, 0px 10px;
+    text-align: left;
+    display: flexbox;
+    float: left;
+    margin-top: 2px;
+    font-family: 'poppins';
+}
+.Burger5{
+    background-color: white;
+    border-radius: 0px, 0px 10px;
+    text-align: right;
+    display: flexbox;
+    float: right;
+    margin-top: 2px;
+    font-family: 'poppins';
+}
+.Burger6{
+    background-color: white;
+    border-radius: 0px, 0px 10px;
+    text-align: right;
+    display: flexbox;
+    float: right;
+    padding: 10px;
+    margin-top: 2px;
+    font-family: 'poppins';
+}
